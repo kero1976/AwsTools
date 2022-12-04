@@ -7,4 +7,9 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AwsTools.Domain\AwsTools.Domain.csproj" />
+    <ProjectReference Include="..\AwsTools.Infrastructure\AwsTools.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>

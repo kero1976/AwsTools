@@ -15,4 +15,10 @@
     <PackageReference Include="coverlet.collector" Version="3.1.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AwsTools.Domain\AwsTools.Domain.csproj" />
+    <ProjectReference Include="..\AwsTools.Infrastructure\AwsTools.Infrastructure.csproj" />
+    <ProjectReference Include="..\AwsTools.WPF\AwsTools.WPF.csproj" />
+  </ItemGroup>
+
 </Project>
