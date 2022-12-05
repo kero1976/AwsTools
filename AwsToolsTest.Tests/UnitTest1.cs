@@ -1,3 +1,5 @@
+using AwsTools.Infrastructure.S3;
+
 namespace AwsToolsTest.Tests
 {
     [TestClass]
@@ -6,6 +8,8 @@ namespace AwsToolsTest.Tests
         [TestMethod]
         public void TestMethod1()
         {
+            S3List s3 = new S3List();
+            s3.exe();
         }
     }
 }
